@@ -1,0 +1,17 @@
+[package]
+name = "todo"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "todo"
+path = "src/main.rs"
+
+[lib]
+name = "todo"
+path = "src/libs.rs"
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tabwriter = "1"
