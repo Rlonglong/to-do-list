@@ -1,3 +1,6 @@
+# To Do List
+## usage
+```
 Available commands:
     Note: Please input date with the form "YYYY/MM/DD".
     - add [TASK] [DEADLINE]
@@ -25,3 +28,4 @@ Available commands:
     - raw [todo/done]
         prints nothing but done/incompleted tasks in plain text, useful for scripting
         Example: todo raw done
+```
