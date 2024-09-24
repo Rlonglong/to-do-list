@@ -1,5 +1,5 @@
 use std::vec;
-use std::fs::{self, File};
+use std::fs::File;
 use std::io::{BufWriter, Write};
 
 use crate::the_list::{TaskList, PATH_FILE, PATH_TRASH, output_name};
@@ -82,7 +82,6 @@ pub fn row(item : &String) {
 }
 
 pub fn help() {
-    let contents = fs::read_to_string("help.txt")
-        .expect("FileError: failed to read file.");
-    println!("{contents}");
+    let file_content = include_str!(".././help.txt");
+    println!("{file_content}");
 }
