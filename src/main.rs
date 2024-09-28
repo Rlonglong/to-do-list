@@ -15,7 +15,7 @@ fn main() {
             "reset" => reset(),
             "restore" => restore(),
             "sort" => sort(),
-            "row" => {row(&args[2]); return;},
+            "raw" => {raw(&args[2]); return;},
             "--help" => {help(); return;},
             "list" => (),
             &_ => panic!("TypeError: input some paramter that didn't find. If you need help, plese run 'todo --help' to apply suggestion."),
