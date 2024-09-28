@@ -1,8 +1,13 @@
 # To Do List
+## demo
+<img src="https://github.com/user-attachments/assets/4132f4db-e11b-4ee9-957b-8c7c9a4af5aa" width="70%">
+
+
 ## usage
 ```
 Available commands:
     Note: Please input date with the form "YYYY/MM/DD".
+
     - add [TASK] [DEADLINE]
         adds a new task
         Example: todo add "buy carrots" 2024/09/24
